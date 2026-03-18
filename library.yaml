@@ -26,5 +26,8 @@ library:
     - name: tdd
       description: Test-driven development with red-green-refactor loop using vertical slices and integration-style tests
       source: ~/projects/my-library/skills/tdd/SKILL.md
+    - name: write-a-prd
+      description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue
+      source: ~/projects/my-library/skills/write-a-prd/SKILL.md
   agents: []
   prompts: []
