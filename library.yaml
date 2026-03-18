@@ -17,5 +17,8 @@ library:
     - name: prd-to-issues
       description: Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices
       source: ~/projects/my-library/skills/prd-to-issues/SKILL.md
+    - name: prd-to-plan
+      description: Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as a local Markdown file
+      source: ~/projects/my-library/skills/prd-to-plan/SKILL.md
   agents: []
   prompts: []
