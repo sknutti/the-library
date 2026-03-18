@@ -14,5 +14,8 @@ library:
     - name: grill-me
       description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree
       source: ~/projects/my-library/skills/grill-me/SKILL.md
+    - name: prd-to-issues
+      description: Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices
+      source: ~/projects/my-library/skills/prd-to-issues/SKILL.md
   agents: []
   prompts: []
