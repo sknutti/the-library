@@ -20,5 +20,8 @@ library:
     - name: prd-to-plan
       description: Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as a local Markdown file
       source: ~/projects/my-library/skills/prd-to-plan/SKILL.md
+    - name: request-refactor-plan
+      description: Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue
+      source: ~/projects/my-library/skills/request-refactor-plan/SKILL.md
   agents: []
   prompts: []
