@@ -11,23 +11,382 @@ default_dirs:
 
 library:
   skills:
+    - name: agent-browser
+      description: Browser automation using Vercel's agent-browser CLI for web interaction, forms, screenshots, and scraping
+      source: ~/side_projects/my-library/skills/agent-browser/SKILL.md
+    - name: agent-native-architecture
+      description: Build applications where agents are first-class citizens with MCP tools and self-modifying systems
+      source: ~/side_projects/my-library/skills/agent-native-architecture/SKILL.md
+    - name: agent-native-audit
+      description: Audit a codebase or workflow against agent-native architecture principles with scored recommendations
+      source: ~/side_projects/my-library/skills/agent-native-audit/SKILL.md
+    - name: brainstorm
+      description: Collaborative design exploration before implementation to clarify requirements and explore approaches
+      source: ~/side_projects/my-library/skills/brainstorm/SKILL.md
+    - name: brd-to-gherkin
+      description: Analyze BRDs to identify gaps and generate Gherkin feature files with acceptance tests
+      source: ~/side_projects/my-library/skills/brd-to-gherkin/SKILL.md
+    - name: clean-architecture-react-review
+      description: Review React/TypeScript codebases for Clean Architecture, best practices, and type safety
+      source: ~/side_projects/my-library/skills/clean-architecture-react-review/SKILL.md
+    - name: compound-docs
+      description: Capture solved problems as categorized documentation with YAML frontmatter for fast lookup
+      source: ~/side_projects/my-library/skills/compound-docs/SKILL.md
+    - name: continual-learning
+      description: Behavioral protocol for continuous knowledge capture across sessions
+      source: ~/side_projects/my-library/skills/continual-learning/SKILL.md
+    - name: create-agent-skills
+      description: Expert guidance for creating Claude Code skills, slash commands, and SKILL.md files
+      source: ~/side_projects/my-library/skills/create-agent-skills/SKILL.md
+    - name: create-skill
+      description: Guide for creating new skills with specialized knowledge, workflows, or tool integrations
+      source: ~/side_projects/my-library/skills/create-skill/SKILL.md
+    - name: damage-control
+      description: Install, configure, and manage Claude Code Damage Control security hooks system
+      source: ~/side_projects/my-library/skills/damage-control/SKILL.md
+    - name: deepen-plan
+      description: Enhance an existing implementation plan with deeper research, decisions, risks, and execution detail
+      source: ~/side_projects/my-library/skills/deepen-plan/SKILL.md
+    - name: design-an-interface
+      description: Generate multiple radically different interface designs for a module using parallel sub-agents
+      source: ~/side_projects/my-library/skills/design-an-interface/SKILL.md
+    - name: dist_sys_mentor
+      description: Personalized learning mentor for distributed systems concepts with structured paths and review cards
+      source: ~/side_projects/my-library/skills/dist_sys_mentor/SKILL.md
+    - name: document-review
+      description: Refine brainstorm or plan documents before proceeding to the next workflow step
+      source: ~/side_projects/my-library/skills/document-review/SKILL.md
+    - name: every-style-editor
+      description: Review and edit copy to ensure adherence to Every's editorial style guide
+      source: ~/side_projects/my-library/skills/every-style-editor/SKILL.md
+    - name: feature-video
+      description: Plan and produce a feature demo video for a PR or feature branch
+      source: ~/side_projects/my-library/skills/feature-video/SKILL.md
+    - name: file-todos
+      description: Manage file-based todo tracking system in the todos/ directory with triage and dependencies
+      source: ~/side_projects/my-library/skills/file-todos/SKILL.md
+    - name: frontend-design
+      description: Create distinctive, production-grade frontend interfaces with high design quality
+      source: ~/side_projects/my-library/skills/frontend-design/SKILL.md
+    - name: gemini-imagegen
+      description: Generate and edit images using the Gemini API with text-to-image, style transfers, and multi-turn refinement
+      source: ~/side_projects/my-library/skills/gemini-imagegen/SKILL.md
+    - name: git-worktree
+      description: Manage Git worktrees for isolated parallel development with simple interactive interface
+      source: ~/side_projects/my-library/skills/git-worktree/SKILL.md
     - name: grill-me
-      description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree
-      source: ~/projects/my-library/skills/grill-me/SKILL.md
+      description: Stress-test a plan or design by walking each branch of the decision tree with rigorous questioning
+      source: ~/side_projects/my-library/skills/grill-me/SKILL.md
+    - name: improve-codebase-architecture
+      description: Find opportunities for architectural improvement by deepening shallow modules for testability
+      source: ~/side_projects/my-library/skills/improve-codebase-architecture/SKILL.md
+    - name: investigate-issue
+      description: Investigate a bug by exploring the codebase for root cause, then create a GitHub issue with TDD fix plan
+      source: ~/side_projects/my-library/skills/investigate-issue/SKILL.md
+    - name: jira
+      description: Manage Jira tickets from Claude Code using jira CLI for fetching, updating, commenting, and searching
+      source: ~/side_projects/my-library/skills/jira/SKILL.md
+    - name: jira-ticket-update
+      description: Research local repos and draft implementation-ready Jira ticket descriptions with codebase context
+      source: ~/side_projects/my-library/skills/jira-ticket-update/SKILL.md
+    - name: mentor
+      description: Patient teaching expert providing customized learning experiences about codebases and technologies
+      source: ~/side_projects/my-library/skills/mentor/SKILL.md
+    - name: orchestrating-swarms
+      description: Orchestrate multi-agent swarms using TeammateTool and Task system for parallel workflows
+      source: ~/side_projects/my-library/skills/orchestrating-swarms/SKILL.md
+    - name: plan
+      description: Create implementation plans for features, fixes, refactors, and Jira tickets using canonical workflow
+      source: ~/side_projects/my-library/skills/plan/SKILL.md
     - name: prd-to-issues
       description: Break a PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices
-      source: ~/projects/my-library/skills/prd-to-issues/SKILL.md
+      source: ~/side_projects/my-library/skills/prd-to-issues/SKILL.md
     - name: prd-to-plan
-      description: Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices, saved as a local Markdown file
-      source: ~/projects/my-library/skills/prd-to-plan/SKILL.md
+      description: Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices
+      source: ~/side_projects/my-library/skills/prd-to-plan/SKILL.md
+    - name: rclone
+      description: Upload, sync, and manage files across cloud storage providers using rclone
+      source: ~/side_projects/my-library/skills/rclone/SKILL.md
     - name: request-refactor-plan
-      description: Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue
-      source: ~/projects/my-library/skills/request-refactor-plan/SKILL.md
+      description: Create a detailed refactor plan with tiny commits via user interview, then file as GitHub issue
+      source: ~/side_projects/my-library/skills/request-refactor-plan/SKILL.md
+    - name: requirements-gap-analysis
+      description: Systematically analyze incomplete requirements using structured frameworks and stakeholder perspectives
+      source: ~/side_projects/my-library/skills/requirements-gap-analysis/SKILL.md
+    - name: resolve-pr-parallel
+      description: Resolve all PR review comments using parallel processing
+      source: ~/side_projects/my-library/skills/resolve-pr-parallel/SKILL.md
+    - name: review
+      description: Review code changes and written documents using structured, evidence-based workflow
+      source: ~/side_projects/my-library/skills/review/SKILL.md
+    - name: setup
+      description: Configure which review agents run for your project with auto-detected stack
+      source: ~/side_projects/my-library/skills/setup/SKILL.md
+    - name: skill-creator
+      description: Guide for creating effective skills with specialized knowledge, workflows, or tool integrations
+      source: ~/side_projects/my-library/skills/skill-creator/SKILL.md
+    - name: study-plan
+      description: Create comprehensive, research-backed study plans for mastering technologies or concepts
+      source: ~/side_projects/my-library/skills/study-plan/SKILL.md
     - name: tdd
-      description: Test-driven development with red-green-refactor loop using vertical slices and integration-style tests
-      source: ~/projects/my-library/skills/tdd/SKILL.md
+      description: Test-driven development with red-green-refactor loop using vertical slices and integration tests
+      source: ~/side_projects/my-library/skills/tdd/SKILL.md
+    - name: triage
+      description: Triage findings and bugs into actionable todo artifacts with severity and recommended next steps
+      source: ~/side_projects/my-library/skills/triage/SKILL.md
+    - name: triage-issue
+      description: Deprecated alias for investigate-issue for bug investigation and issue creation
+      source: ~/side_projects/my-library/skills/triage-issue/SKILL.md
+    - name: ubiquitous-language
+      description: Extract a DDD-style ubiquitous language glossary from conversation, flagging ambiguities
+      source: ~/side_projects/my-library/skills/ubiquitous-language/SKILL.md
+    - name: vibe-coding-users
+      description: Create user personas and happy-path flows as LLM agents to test and validate software
+      source: ~/side_projects/my-library/skills/vibe-coding-users/SKILL.md
+    - name: webapp-testing
+      description: Test local web applications using Playwright for frontend verification and screenshots
+      source: ~/side_projects/my-library/skills/webapp-testing/SKILL.md
+    - name: work
+      description: Execute implementation work from plans, specs, or todo lists with incremental changes and validation
+      source: ~/side_projects/my-library/skills/work/SKILL.md
     - name: write-a-prd
-      description: Create a PRD through user interview, codebase exploration, and module design, then submit as a GitHub issue
-      source: ~/projects/my-library/skills/write-a-prd/SKILL.md
-  agents: []
-  prompts: []
+      description: Create a PRD through user interview, codebase exploration, and module design as GitHub issue
+      source: ~/side_projects/my-library/skills/write-a-prd/SKILL.md
+    - name: write-a-skill
+      description: Create new agent skills with proper structure, progressive disclosure, and bundled resources
+      source: ~/side_projects/my-library/skills/write-a-skill/SKILL.md
+
+  agents:
+    # Design agents
+    - name: design-implementation-reviewer
+      description: Visually compares live UI against Figma designs and provides detailed feedback on discrepancies
+      source: ~/side_projects/my-library/agents/design/design-implementation-reviewer.md
+    - name: design-iterator
+      description: Iteratively refines UI design through N screenshot-analyze-improve cycles
+      source: ~/side_projects/my-library/agents/design/design-iterator.md
+    - name: figma-design-sync
+      description: Detects and fixes visual differences between web implementation and Figma design
+      source: ~/side_projects/my-library/agents/design/figma-design-sync.md
+    # Pi-Pi agents
+    - name: pi-orchestrator
+      description: Primary meta-agent that coordinates Pi experts and builds Pi components
+      source: ~/side_projects/my-library/agents/pi-pi/pi-orchestrator.md
+    - name: pi-agent-expert
+      description: Pi agent definitions expert for .md frontmatter, teams.yaml, and agent-team orchestration
+      source: ~/side_projects/my-library/agents/pi-pi/agent-expert.md
+    - name: pi-cli-expert
+      description: Pi CLI expert for command line arguments, flags, environment variables, and subcommands
+      source: ~/side_projects/my-library/agents/pi-pi/cli-expert.md
+    - name: pi-config-expert
+      description: Pi configuration expert for settings.json, providers, models, packages, and keybindings
+      source: ~/side_projects/my-library/agents/pi-pi/config-expert.md
+    - name: pi-ext-expert
+      description: Pi extensions expert for custom tools, event handlers, commands, and state management
+      source: ~/side_projects/my-library/agents/pi-pi/ext-expert.md
+    - name: pi-keybinding-expert
+      description: Pi keyboard shortcut expert for registerShortcut, Key IDs, modifiers, and terminal compatibility
+      source: ~/side_projects/my-library/agents/pi-pi/keybinding-expert.md
+    - name: pi-prompt-expert
+      description: Pi prompt templates expert for single-file .md format, frontmatter, and positional arguments
+      source: ~/side_projects/my-library/agents/pi-pi/prompt-expert.md
+    - name: pi-skill-expert
+      description: Pi skills expert for SKILL.md format, frontmatter fields, and skill command registration
+      source: ~/side_projects/my-library/agents/pi-pi/skill-expert.md
+    - name: pi-theme-expert
+      description: Pi themes expert for JSON format, color tokens, vars system, and theme distribution
+      source: ~/side_projects/my-library/agents/pi-pi/theme-expert.md
+    - name: pi-tui-expert
+      description: Pi TUI expert for built-in components, overlays, keyboard input, widgets, and custom editors
+      source: ~/side_projects/my-library/agents/pi-pi/tui-expert.md
+    # Research agents
+    - name: best-practices-researcher
+      description: Researches and synthesizes external best practices, documentation, and examples for any technology
+      source: ~/side_projects/my-library/agents/research/best-practices-researcher.md
+    - name: framework-docs-researcher
+      description: Gathers comprehensive documentation and best practices for frameworks, libraries, or dependencies
+      source: ~/side_projects/my-library/agents/research/framework-docs-researcher.md
+    - name: git-history-analyzer
+      description: Performs archaeological analysis of git history to trace code evolution and understand patterns
+      source: ~/side_projects/my-library/agents/research/git-history-analyzer.md
+    - name: learnings-researcher
+      description: Searches docs/solutions/ for relevant past solutions to surface institutional knowledge
+      source: ~/side_projects/my-library/agents/research/learnings-researcher.md
+    - name: repo-research-analyst
+      description: Conducts thorough research on repository structure, documentation, conventions, and patterns
+      source: ~/side_projects/my-library/agents/research/repo-research-analyst.md
+    # Review agents
+    - name: agent-native-reviewer
+      description: Reviews code to ensure agent-native parity — any user action an agent can also take
+      source: ~/side_projects/my-library/agents/review/agent-native-reviewer.md
+    - name: architecture-strategist
+      description: Analyzes code changes for architectural pattern compliance and design integrity
+      source: ~/side_projects/my-library/agents/review/architecture-strategist.md
+    - name: code-simplicity-reviewer
+      description: Final review pass to ensure code is as simple and minimal as possible, catching YAGNI violations
+      source: ~/side_projects/my-library/agents/review/code-simplicity-reviewer.md
+    - name: data-integrity-guardian
+      description: Reviews database migrations, data models, and persistent data code for safety and compliance
+      source: ~/side_projects/my-library/agents/review/data-integrity-guardian.md
+    - name: data-migration-expert
+      description: Validates data migrations, backfills, and production data transformations against reality
+      source: ~/side_projects/my-library/agents/review/data-migration-expert.md
+    - name: deployment-verification-agent
+      description: Produces Go/No-Go deployment checklists with SQL verification, rollback, and monitoring plans
+      source: ~/side_projects/my-library/agents/review/deployment-verification-agent.md
+    - name: dhh-rails-reviewer
+      description: Brutally honest Rails code review from DHH's perspective for anti-patterns and convention violations
+      source: ~/side_projects/my-library/agents/review/dhh-rails-reviewer.md
+    - name: julik-frontend-races-reviewer
+      description: Reviews JavaScript and Stimulus code for race conditions, timing issues, and DOM lifecycle problems
+      source: ~/side_projects/my-library/agents/review/julik-frontend-races-reviewer.md
+    - name: kieran-python-reviewer
+      description: High quality bar Python review for Pythonic patterns, type safety, and maintainability
+      source: ~/side_projects/my-library/agents/review/kieran-python-reviewer.md
+    - name: kieran-rails-reviewer
+      description: High quality bar Rails review for conventions, clarity, and maintainability
+      source: ~/side_projects/my-library/agents/review/kieran-rails-reviewer.md
+    - name: kieran-typescript-reviewer
+      description: High quality bar TypeScript review for type safety, modern patterns, and maintainability
+      source: ~/side_projects/my-library/agents/review/kieran-typescript-reviewer.md
+    - name: pattern-recognition-specialist
+      description: Analyzes code for design patterns, anti-patterns, naming conventions, and duplication
+      source: ~/side_projects/my-library/agents/review/pattern-recognition-specialist.md
+    - name: performance-oracle
+      description: Analyzes code for performance bottlenecks, algorithmic complexity, queries, and memory usage
+      source: ~/side_projects/my-library/agents/review/performance-oracle.md
+    - name: schema-drift-detector
+      description: Detects unrelated schema.rb changes in PRs by cross-referencing against included migrations
+      source: ~/side_projects/my-library/agents/review/schema-drift-detector.md
+    - name: security-sentinel
+      description: Security audits for vulnerabilities, input validation, auth/authz, secrets, and OWASP compliance
+      source: ~/side_projects/my-library/agents/review/security-sentinel.md
+    # Team agents
+    - name: builder
+      description: Generic engineering agent that executes ONE task at a time — writing code, creating files, implementing
+      source: ~/side_projects/my-library/agents/team/builder.md
+    - name: validator
+      description: Read-only validation agent that checks if a task was completed successfully against acceptance criteria
+      source: ~/side_projects/my-library/agents/team/validator.md
+    # Workflow agents
+    - name: bug-reproduction-validator
+      description: Systematically reproduces and validates bug reports to confirm actual bug behavior
+      source: ~/side_projects/my-library/agents/workflow/bug-reproduction-validator.md
+    - name: every-style-editor-agent
+      description: Reviews and edits text content to conform to Every's editorial style guide
+      source: ~/side_projects/my-library/agents/workflow/every-style-editor.md
+    - name: implementation-planner
+      description: Repository-aware implementation planning specialist for features, fixes, refactors, and ticket work
+      source: ~/side_projects/my-library/agents/workflow/implementation-planner.md
+    - name: jira-ticket-research-enricher
+      description: Research-heavy Jira ticket specialist that traces code across repos and drafts implementation-ready updates
+      source: ~/side_projects/my-library/agents/workflow/jira-ticket-research-enricher.md
+    - name: lint
+      description: Run linting and code quality checks on Ruby and ERB files before pushing
+      source: ~/side_projects/my-library/agents/workflow/lint.md
+    - name: pr-comment-resolver
+      description: Addresses PR review comments by implementing requested changes and reporting resolutions
+      source: ~/side_projects/my-library/agents/workflow/pr-comment-resolver.md
+    - name: spec-flow-analyzer
+      description: Analyzes specifications for user flow completeness, edge cases, and gap identification
+      source: ~/side_projects/my-library/agents/workflow/spec-flow-analyzer.md
+
+  prompts:
+    - name: agent-native-audit
+      description: Run an agent-native architecture audit using the canonical skill
+      source: ~/side_projects/my-library/prompts/agent-native-audit.md
+    - name: changelog
+      description: Create engaging changelogs for recent merges to main branch
+      source: ~/side_projects/my-library/prompts/changelog.md
+    - name: create-agent-skill
+      description: Create or edit Claude Code skills with expert guidance on structure and best practices
+      source: ~/side_projects/my-library/prompts/create-agent-skill.md
+    - name: create-slash-command
+      description: Create a single-file custom slash command following command conventions
+      source: ~/side_projects/my-library/prompts/create-slash-command.md
+    - name: deepen-plan
+      description: Deepen an implementation plan using the canonical deepen-plan skill
+      source: ~/side_projects/my-library/prompts/deepen-plan.md
+    - name: deploy-docs
+      description: Validate and prepare documentation for GitHub Pages deployment
+      source: ~/side_projects/my-library/prompts/deploy-docs.md
+    - name: feature-video
+      description: Record a feature walkthrough video and update the related PR or handoff
+      source: ~/side_projects/my-library/prompts/feature-video.md
+    - name: generate_command
+      description: Deprecated alias for create-slash-command
+      source: ~/side_projects/my-library/prompts/generate_command.md
+    - name: handoff
+      description: Generate a HANDOFF.md file summarizing the session, decisions, outcomes, and next steps
+      source: ~/side_projects/my-library/prompts/handoff.md
+    - name: heal-skill
+      description: Fix incorrect SKILL.md files with wrong instructions or outdated API references
+      source: ~/side_projects/my-library/prompts/heal-skill.md
+    - name: install-damage-control
+      description: Install the Damage Control security hooks system
+      source: ~/side_projects/my-library/prompts/install-damage-control.md
+    - name: jira-ticket-update-preview
+      description: Preview a Jira ticket update without modifying Jira
+      source: ~/side_projects/my-library/prompts/jira-ticket-update-preview.md
+    - name: jira-ticket-update
+      description: Research codebase repos and update a Jira ticket description
+      source: ~/side_projects/my-library/prompts/jira-ticket-update.md
+    - name: job-rust-job-market-research
+      description: Research current Rust job market and produce domain-organized report
+      source: ~/side_projects/my-library/prompts/job-rust-job-market-research.md
+    - name: process-edge-automation-guided-journey
+      description: Guide through edge-first workflow automation — start with mechanical edges, earn trust
+      source: ~/side_projects/my-library/prompts/process-edge-automation-guided-journey.md
+    - name: process-uncover-tribal-knowledge
+      description: Extract undocumented workflow knowledge through non-threatening conversation
+      source: ~/side_projects/my-library/prompts/process-uncover-tribal-knowledge.md
+    - name: report-bug
+      description: Report a bug in the compound-engineering plugin
+      source: ~/side_projects/my-library/prompts/report-bug.md
+    - name: reproduce-bug
+      description: Reproduce and investigate a bug using logs, console inspection, and browser screenshots
+      source: ~/side_projects/my-library/prompts/reproduce-bug.md
+    - name: resolve_todo_parallel
+      description: Resolve pending todo items in parallel using the canonical CLI todo workflow
+      source: ~/side_projects/my-library/prompts/resolve_todo_parallel.md
+    - name: rule2hook
+      description: Convert natural language project rules into Claude Code hook configurations
+      source: ~/side_projects/my-library/prompts/rule2hook.md
+    - name: security-review
+      description: Generate a STRIDE-based threat model and security review for the current codebase
+      source: ~/side_projects/my-library/prompts/security-review.md
+    - name: study-learn
+      description: Create a personalized learning path for mastering the codebase or specific technologies
+      source: ~/side_projects/my-library/prompts/study-learn.md
+    - name: study-study-plan
+      description: Create a comprehensive, research-backed study plan for mastering technologies or concepts
+      source: ~/side_projects/my-library/prompts/study-study-plan.md
+    - name: test-browser
+      description: Run browser tests on pages affected by current PR or branch
+      source: ~/side_projects/my-library/prompts/test-browser.md
+    - name: test-damage-control
+      description: Live demonstration of Damage Control hooks blocking dangerous commands
+      source: ~/side_projects/my-library/prompts/test-damage-control.md
+    - name: test-xcode
+      description: Build and test iOS apps on simulator using XcodeBuildMCP
+      source: ~/side_projects/my-library/prompts/test-xcode.md
+    - name: triage
+      description: Triage findings into actionable todo artifacts using the canonical triage skill
+      source: ~/side_projects/my-library/prompts/triage.md
+    - name: workflows-brainstorm
+      description: Start a collaborative brainstorming workflow to clarify requirements and explore approaches
+      source: ~/side_projects/my-library/prompts/workflows-brainstorm.md
+    - name: workflows-compound
+      description: Document a recently solved problem to compound your team's knowledge
+      source: ~/side_projects/my-library/prompts/workflows-compound.md
+    - name: workflows-deepen-plan
+      description: Deepen an implementation plan using the canonical deepen-plan skill
+      source: ~/side_projects/my-library/prompts/workflows-deepen-plan.md
+    - name: workflows-plan
+      description: Create an implementation plan using the canonical plan skill
+      source: ~/side_projects/my-library/prompts/workflows-plan.md
+    - name: workflows-review
+      description: Review code changes or documents using the canonical review skill
+      source: ~/side_projects/my-library/prompts/workflows-review.md
+    - name: workflows-work
+      description: Execute implementation work from a plan, spec, or todo list using the canonical work skill
+      source: ~/side_projects/my-library/prompts/workflows-work.md
